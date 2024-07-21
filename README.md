@@ -31,6 +31,7 @@ You should then be able to navigate to your localhost to test the application.
 * Client/DB Authentication
 * UI Accessibility
 * Team member alphabetize/sorting
+* Implement a custom dialog for user messaging instead of using alerts and window
 * Add server-side and client-side validation of phone #
 * Extract member form into it's own component
 * Clean up and centralize styling (most likely choosing a UI framework to use)

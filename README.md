@@ -1,13 +1,6 @@
 # TeamMembersFullStack
 A simple full stack app for managing Team Members using React and Django
 
-![The main view](./main.png?raw=true "Main Page")
-
-![The edit view](./edit.png?raw=true "Edit Page")
-
-![The create view](./create.png?raw=true "Create Page")
-
-
 ## Backend setup
 
 The backend is built with Django
@@ -41,3 +34,11 @@ You should then be able to navigate to your localhost to test the application.
 * Add server-side and client-side validation of phone #
 * Extract member form into it's own component
 * Clean up and centralize styling (most likely choosing a UI framework to use)
+
+## Screenshots
+
+![The main view](./main.png?raw=true "Main Page")
+
+![The edit view](./edit.png?raw=true "Edit Page")
+
+![The create view](./create.png?raw=true "Create Page")

@@ -1,6 +1,13 @@
 # TeamMembersFullStack
 A simple full stack app for managing Team Members using React and Django
 
+![The main view](./main.png?raw=true "Main Page")
+
+![The edit view](./edit.png?raw=true "Edit Page")
+
+![The create view](./create.png?raw=true "Create Page")
+
+
 ## Backend setup
 
 The backend is built with Django

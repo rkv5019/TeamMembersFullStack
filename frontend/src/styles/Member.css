@@ -1,0 +1,35 @@
+.member-container {
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.member-container:hover {
+  background-color: #f1f1f1f1;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+}
+
+.member-name {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.member-details {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.member-detail {
+  color: #606060;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+

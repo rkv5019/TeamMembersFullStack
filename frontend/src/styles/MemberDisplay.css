@@ -1,0 +1,67 @@
+/* Styles for the form section */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+  
+.form-subtitle {
+  font-weight: bold;
+  margin-top: 10px;
+}
+  
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 8px 0 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.radio-label input {
+  width: 25px;
+}
+
+.button-base {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+}
+
+.delete {
+  background-color: #fff;
+  color: red;
+  border: 1px solid #ccc;
+}
+  
+.submit {
+  background-color: #097efa;
+  color: white;
+}
+  
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.buttons-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

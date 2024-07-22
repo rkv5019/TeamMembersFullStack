@@ -3,14 +3,25 @@ A simple full stack app for managing Team Members using React and Django
 
 ## Backend setup
 
-The backend is built with Django
+The backend is built with Django and PostgreSQL
 To set up the backend, navigate into the backend folder and run:
 
 `cd backend`
 
-`pipnp r3 install -r requirements.txt`
+`pip3 install -r requirements.txt`
+
+If you do not have PostgreSQL you can run:
+
+`brew install postgresql`
+`brew services start postgresql@14`
+
+Finally run
 
 `python3 manage.py runserver`
+
+After testing you can stop PostgreSQL with
+
+`brew services stop postgresql@14`
 
 ## Frontend setup
 
